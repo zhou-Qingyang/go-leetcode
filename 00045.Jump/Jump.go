@@ -1,7 +1,6 @@
 package leetcode
 
 func jump(nums []int) int {
-	// 性能比较好的算法
 	n := len(nums)
 	maxPos := 0
 	end := 0
