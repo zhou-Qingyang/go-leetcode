@@ -4,8 +4,7 @@ func generate(maxRows int) [][]int {
 	if maxRows == 0 {
 		return [][]int{}
 	}
-	//res := make([][]int, maxRows)
-	//
+	//res := make([][]int, maxRows)  分清这两者的区别
 	res := [][]int{}
 	res = append(res, []int{0})
 	for i := 1; i < maxRows; i++ {
